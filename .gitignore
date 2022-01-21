@@ -1,5 +1,5 @@
 #Main data files
-
+*.DS_Store
 
 #html R markdown files
 *.html
