@@ -1,5 +1,8 @@
+#Main data files
+
+
 #html R markdown files
-.html
+*.html
 
 # History files
 .Rhistory
