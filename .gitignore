@@ -1,7 +1,10 @@
+#html R markdown files
+.html
+
 # History files
 .Rhistory
 .Rapp.history
-.html
+
 
 # Session Data files
 .RData
