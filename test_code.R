@@ -1,5 +1,4 @@
 #test code for github
 
-print("hello")
-#I am going to add more code and recommit
-
+#made more changes and deleted some
+x <-1:10
