@@ -7,7 +7,19 @@ output: html_document
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+```{r, echo=FALSE}
+limpets <-read.csv("Data/limpet.csv")
+```
 
+```{r, echo=FALSE}
+head(limpets)
+```
+```{r}
+library(ggplot2)
+ggplot(limpets, aes (x=DENSITY, y=EGGS, colour=SEASON)) +
+  geom_point()+
+facet_wrap(~SEASON, ncol=1)
+```
 
 
 ## R Markdown
