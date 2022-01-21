@@ -1,4 +1,7 @@
 #Main data files
+Data/
+
+#some weird mac file
 *.DS_Store
 
 #html R markdown files
